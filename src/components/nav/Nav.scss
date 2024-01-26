@@ -1,0 +1,28 @@
+select {
+    padding: 4px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.535);
+    background-image: url(/assets/global1.jpg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-entrar {
+    padding: 7px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #e50914;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.btn-entrar:hover {
+    background-color: rgba(250, 15, 27, 0.815);
+}

@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    height: 50px;
+    width: 350px;
+    background-color: rgba(29, 29, 29, 0.488);
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+.btn-start {
+    margin-left: 10px;
+    font-size: 22px;
+    padding: 2px 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-start:hover {
+    background-color: rgb(240, 42, 52);
+}

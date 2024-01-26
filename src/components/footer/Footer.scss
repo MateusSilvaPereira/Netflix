@@ -1,0 +1,45 @@
+$primary-color: #00081d;
+$accent-color: #fff;
+
+.footer {
+  background-color: $primary-color;
+  color: $accent-color;
+  padding: 20px;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .footer-section {
+      flex: 1;
+
+      h4 {
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 5px;
+
+          a {
+            color: $accent-color;
+            text-decoration: none;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
